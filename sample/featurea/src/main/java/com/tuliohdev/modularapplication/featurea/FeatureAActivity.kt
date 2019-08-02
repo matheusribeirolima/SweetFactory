@@ -27,7 +27,7 @@ class FeatureAActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_feature_a)
+        //setContentView(R.layout.activity_feature_a)
 
         findViewById<Button>(R.id.btOpenFeatureB).setOnClickListener {
             startActivity(featureBNavigator?.newIntentForFeatureBActivity(this))
